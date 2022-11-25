@@ -138,6 +138,16 @@
     "settings": [
       {
         "type": "range",
+        "id": "container_width",
+        "min": 1000,
+        "max": 2000,
+        "step": 100,
+        "default": 1600,
+        "unit": "px",
+        "label": "Container Width"
+      },
+      {
+        "type": "range",
         "id": "page_width",
         "min": 1000,
         "max": 1600,
